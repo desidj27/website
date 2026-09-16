@@ -68,7 +68,7 @@ export default function Home() {
                 Things I’ve shipped
               </h2>
             </div>
-            <div className="grid auto-rows-fr gap-4 md:grid-cols-2 lg:grid-cols-3">
+            <div className="grid auto-rows-fr gap-4 md:grid-cols-2">
               {projects.map((project) => (
                 <ProjectCard key={project.title} project={project} />
               ))}

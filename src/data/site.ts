@@ -30,6 +30,16 @@ export type Project = {
 
 export const projects: Project[] = [
   {
+    title: "MTG Pack Opener",
+    eyebrow: "Booster simulator",
+    description:
+      "Open virtual Magic: The Gathering packs, flip through the reveal, and save what you pull. Card data comes from Scryfall, with pack art from the MTG Wiki.",
+    tags: ["JavaScript", "Vite", "Scryfall"],
+    liveUrl: "https://mtg.daviddesing.website/",
+    repoUrl: "https://github.com/desidj27/MTG-Web-Port",
+    year: "2026",
+  },
+  {
     title: "What Is Above Me",
     eyebrow: "Live satellite map",
     description:
