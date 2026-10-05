@@ -50,13 +50,23 @@ export const projects: Project[] = [
     year: "2026",
   },
   {
-    title: "DegenerateBot",
-    eyebrow: "Discord activity tracker",
+    title: "StatX",
+    eyebrow: "Discord server analytics",
     description:
-      "A dashboard for a Discord bot that tracks messages, voice time, games played, and more. Leaderboards sit on MongoDB so the server can see who is actually around.",
-    tags: ["Next.js", "TypeScript", "MongoDB"],
-    liveUrl: "https://degen.daviddesing.website/",
-    repoUrl: "https://github.com/desidj27/DegenerateBotWebsite",
+      "Tracks messages, voice time, and game activity, then puts it in a dashboard admins can actually use. Each server gets its own rankings, feature toggles, and settings.",
+    tags: ["Next.js", "JavaScript", "MongoDB"],
+    liveUrl: "https://statx.website/",
+    repoUrl: "https://github.com/desidj27/StatX",
+    year: "2026",
+  },
+  {
+    title: "Ranked Minesweeper",
+    eyebrow: "1v1 duels",
+    description:
+      "Race on the same mine layout. Clear the board first, or survive after your opponent hits a mine. Wins and losses move your ELO.",
+    tags: ["Next.js", "TypeScript"],
+    liveUrl: "https://minesweeper.daviddesing.website/",
+    repoUrl: "https://github.com/desidj27/Minesweeper",
     year: "2026",
   },
   {
