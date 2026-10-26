@@ -1,0 +1,59 @@
+@import "tailwindcss";
+
+@theme inline {
+  --font-sans: var(--font-outfit);
+  --font-serif: var(--font-fraunces);
+  --font-mono: var(--font-geist-mono);
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+@keyframes orbit {
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes twinkle {
+  0%,
+  62%,
+  100% {
+    opacity: 0;
+  }
+  70% {
+    opacity: 1;
+  }
+  78% {
+    opacity: 0.25;
+  }
+  86% {
+    opacity: 0.95;
+  }
+  94% {
+    opacity: 0;
+  }
+}
+
+.orbit-spin {
+  transform-box: view-box;
+  transform-origin: 50% 50%;
+  animation: orbit var(--orbit-duration, 24s) linear infinite;
+}
+
+.orbit-spin-reverse {
+  animation-direction: reverse;
+}
+
+.orbit-twinkle {
+  animation: twinkle var(--twinkle-duration, 9s) ease-in-out infinite;
+  animation-delay: var(--twinkle-delay, 0s);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .orbit-spin,
+  .orbit-twinkle {
+    animation: none;
+  }
+}

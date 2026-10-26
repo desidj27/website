@@ -30,6 +30,16 @@ export type Project = {
 
 export const projects: Project[] = [
   {
+    title: "CodeClash",
+    eyebrow: "HackGB 2026 · Competitive coding",
+    description:
+      "Practice solo in the dojo, with Python running in your browser, and get hints from an AI coach. Built with Robert, Bryce, and Sam at HackGB, where it won Best Use of Gemini API.",
+    tags: ["Next.js", "React", "TigerData", "Pyodide", "Google Gemini API"],
+    liveUrl: "http://codeclash.study/",
+    repoUrl: "https://github.com/HackGB2026/CodeClash",
+    year: "2026",
+  },
+  {
     title: "MTG Pack Opener",
     eyebrow: "Booster simulator",
     description:
@@ -37,7 +47,7 @@ export const projects: Project[] = [
     tags: ["JavaScript", "Vite", "Scryfall"],
     liveUrl: "https://mtg.daviddesing.website/",
     repoUrl: "https://github.com/desidj27/MTG-Web-Port",
-    year: "2026",
+    year: "2025",
   },
   {
     title: "What Is Above Me",
@@ -47,7 +57,7 @@ export const projects: Project[] = [
     tags: ["JavaScript", "Node", "Express", "N2YO API"],
     liveUrl: "https://what-is-above-me.daviddesing.website/",
     repoUrl: "https://github.com/desidj27/WhatIsAboveMe",
-    year: "2026",
+    year: "2025",
   },
   {
     title: "StatX",
